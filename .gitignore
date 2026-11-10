@@ -1,0 +1,17 @@
+# Game Studio local history, screenshots, and temporary generation state
+.studio/
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+.npmrc
+
+# Local balance reports are historical runs, not release artifacts
+tests/*results.json
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
